@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.headertop {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 7px;
+}
+
+.header {
+    color: white;
+    background-color: #312f3c
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: e5e7eb;
+    display: flex;
+}
+
+.headerbody {
+    display: flex;
+    margin: 100px 100px;
+    
+}    
+
+.hbright {
+    max-height: 250px;
+    max-width: 500px;
+    gap: 20px;
+}
+
+header-button {
+    background-color: #3882f6;
+    color: white;
+    padding: 2%;
+    border-radius: 8px;
+}
+
+.h1 {
+    font-size: 36px;
+    color: antiquewhite;
+}
+
+.h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 50px;
+}
+
+.boxes {
+    color: purple;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border-radius: 7px;
+    border: 5px solid blue;
+}
+
+.section2 {
+    margin: 50px;
+    text-align: center;
+}
+
+.box {
+    width: 150px;
+}
+
+.section3 {
+    background-color: gray;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    margin: 50px 50px 50px 50px;
+}
+
+.author {
+    color: black;
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.section4 {
+    padding: 88px 88px;
+}
+
+.call-action {
+    background-color: #3578d6;
+    border-radius: 4px;
+    color: #f9faf8;
+    display: flex;
+    padding: 33px 77px;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.call-action-button {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    align-items: flex-end;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
